@@ -25,6 +25,7 @@ button1.addEventListener('click',()=>{
 
 function setup(){
     createCanvas(windowWidth, windowHeight);
+    gridsize = Math.min(width, height)/n*0.9;
 
     stone[4][4] = 1;
     stone[3][3] = 1;
@@ -85,7 +86,7 @@ function draw(){
 
     noStroke();
     fill(0);
-    textSize(80);
+    textSize(50);
     // if(mode==1) text('あなたの番です', 50, gridsize*n+30);
 
     let bcou = 0;
