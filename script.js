@@ -1,4 +1,4 @@
-const gridsize = 60;
+let gridsize = 60;
 const n = 8;
 
 let stone = new Array(n);
